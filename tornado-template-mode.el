@@ -281,9 +281,6 @@
 (define-key tornado-template-mode-map (kbd "C-c v") 'tornado-template-insert-var)
 (define-key tornado-template-mode-map (kbd "C-c #") 'tornado-template-insert-comment)
 
-;;;###autoload
-(add-to-list 'auto-mode-alist '("\\.html\\'" . tornado-template-mode))
-
 (provide 'tornado-template-mode)
 
 ;;; tornado-template-mode.el ends here
