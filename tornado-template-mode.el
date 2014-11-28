@@ -3,7 +3,7 @@
 ;; Copyright (C) 2014 Florian Mounier aka paradoxxxzero
 
 ;; Author: Florian Mounier aka paradoxxxzero
-;; Version: 0.1
+;; Version: 0.2
 
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -254,7 +254,7 @@
 
 
 ;;;###autoload
-(define-derived-mode tornado-template-mode sgml-mode  "Tornado-Template"
+(define-derived-mode tornado-template-mode html-mode  "Tornado-Template"
   "Major mode for editing tornado-template files"
   :group 'tornado-template
   ;; Disabling this because of this emacs bug:
